@@ -1,0 +1,24 @@
+{
+    "name": "sport-yard-server",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "build": "echo 'Bulding.... (not actually doing something, but usually I would)'",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "firebase-admin": "^11.3.0",
+        "fs": "^0.0.1-security",
+        "http": "^0.0.1-security",
+        "nodemon": "^2.0.20",
+        "socket.io": "^4.5.4"
+    }
+}
