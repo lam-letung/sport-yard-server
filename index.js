@@ -66,7 +66,7 @@ io.on('connection', function (socket) {
                const orders_expired = orders_pending?.filter(o => {
                 const date = new Date(o.createdAt).getDate()
                 const hours = new Date(o.createdAt).getHours() - 1
-                const mins = new Date(o.createdAt).getMinutes() + 3
+                const mins = new Date(o.createdAt).getMinutes() + 2
                  return date === dateNow.getDate() && dateNow.getHours() >= hours + 1  && mins < dateNow.getMinutes()
                })
                console.log("orders_pending:",orders_pending)
