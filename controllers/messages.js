@@ -4,13 +4,13 @@ export const getMessages = async (req, res) => {
     try {
           const entries = await db
             .collection("messages")
-            .MessageBy("timestamp", "desc")
+            .orderBy("timestamp", "desc")
             .get();
-          const Messages = entries.docs.map((entry) => ({
+          const messages = entries.docs.map((entry) => ({
             id: entry.id,
             ...entry.data(),
           }));
-          res.status(200).json({ Messages });
+          res.status(200).json({ messages });
 
       } catch (e) {
         res.status(400).end();

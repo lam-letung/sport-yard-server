@@ -4,7 +4,7 @@ export const getTransactions = async (req, res) => {
     try {
           const entries = await db
             .collection("transactions")
-            .TransactionBy("timestamp", "desc")
+            .orderBy("timestamp", "desc")
             .get();
           const transactions = entries.docs.map((entry) => ({
             id: entry.id,
