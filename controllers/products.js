@@ -88,7 +88,7 @@ export const updateProductByID = async (req,res) => {
 export const deleteProductByID = async (req, res) => {
     try{
         const { id } = req.params
-        await db.collection('Products').doc(id).delete();
+        await db.collection('products').doc(id).delete();
         res.status(200).json({ message : 'Products deleted successfully'})
     }catch(err){
         res.status(400).json({message : err})
