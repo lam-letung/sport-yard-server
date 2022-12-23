@@ -1,15 +1,12 @@
-import dotenv from 'dotenv'
-dotenv.config()
-
 export const serviceAccount = {
-    type: "service_account",
-    project_id: "sport-yard-40ac7",
-    private_key_id: "5aaf250202b66764cad365e286712f0e469740b4",
-    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3ao0C7UYbEJxZ\nNA3dmElqdutj3Yj7o6z59DVDYTp57TL0pV/m+EpJwRu8CHefffs5cqvYW8xTplRR\nPRfk1orThtre51KcaaelnYADNy4foBrwlzeOv5CNWJADBvz1fx9+s4yLKKsE+k+y\nC7NLfhJbn9hK9dOVavqOSZypTHuU4qfh7CBkm8qdJU7uePMyJL/Byxr+YdP+QNAz\n5ISmzNZki4PbSWtlXwvo9Nz27gWr2l3oLUifrecq33PTf11MnaoOO/AI4FaTgeMF\nk489M520BupQxW/Myr8fn1b+2wWjCrShRqE8ulzitB7FV31jZbeYpSWv3azfEUH0\n1EaJ/BHDAgMBAAECggEAM+a5ylc8HFKB+5gISGlcdPz7tQGuTo7NVtms7Mkpk/D0\nF1hon+Iom2BCqd23g/FRUrtJN2sakZ0ihO6FwWKYXCzv6F2K+enH38yGueI2cgqL\nNQOFXCaHEAg8kC69C/cSAXdrUMGMS1dNj/NRpA4jwbukp+mSGtjv162q4Bldaw6Q\nfxaAOqiU3GFd9gXiva//r/Gh6slqq1aja/LUZ2l4tLiiC+WJEgxTKvxNDhE7ruFP\n70jHI930yfYhwDKJJB8rYbf4afHIKgKd91f0viXAB7RMVZAPE91liCQ3cKSB1dp1\n0q3I0uwLxTB6/eF8gQ8jj0ZsGYvnrVO443CAarrW+QKBgQD3WgvMhL0N+2ANKmW1\nWKbp5rGsi9K++xygHlYMyriroQE27sPtfBB5F4fcXlQ4L29yKyVQ3NJG8LdEcSyd\n0aje6y04PdLiIsv8zv/i05E+A/AWAIJ3IhB6X5qF5Uk0snQOCMWV3JJBbpJSVROV\nTamvl05rhjFzA/dJaWNmYXaJNQKBgQC91D3Ry3TIL8WVX3jJ+4XLlhZh8ugEQd0Z\nZUzdkO4baSxBWT/kJsWXQj3VJiVMVPACoaW+oVb/0qPR7LiFqLMCXoyKvLweX6NA\nAqyFHEg+SgCMemMEGQ761arYrixVnxH7hIHTB9pE7qQw7bY230EG2pAXr+Q6D0oz\nMl7V3vSGFwKBgQCpsXQAxlvxGLCnt5t5Uy2HsEXaaz6U2S+lRcqhEf6peFad+iYe\nagvfF16Ut34t4ZUijSkXlbcJBiGk6cPDLdAdxtgKCpf/ngG2GckBM0Ykdo0iew0G\ncC8/1RDspQWZCoiGDEyJaH5KN3JY25cIyfQMy8/4AmMwVdsz2QJhfaHVtQKBgCWi\na3MpdAiwN+rqV6crv5XiNqPKpacaa7w6MigHML2sd0KpcBpKeYgIcPvOKTzd5guP\ngq2tjPMBDstytA6DqKHCnvhufJlE+reZEBz/w27d+wfex7yrPyYJsGpu9YkwFT+Z\nQKfW+bYK3fB5YFO2pUy3jjO0AnpkR6CoztZ18mKXAoGBALRzfR7nv9aOe/11WRw2\ng2ClzcMXZqEmcraVgsR51vGucq/QD3IbfActffDu+HsMSNw0JHY4BDGtPeCifG2M\nz/gqaIbY+kGa7X1sFSqN/g0wqDgoD33NwiTSpa2de6feYAEUXksXCGp+EP3BBh8i\nRt9F9Ahm1I0+TMJFs3MfQJ47\n-----END PRIVATE KEY-----\n",
-    client_email: "firebase-adminsdk-k1gbj@sport-yard-40ac7.iam.gserviceaccount.com",
-    client_id: "104228023085371395949",
-    auth_uri: "https://accounts.google.com/o/oauth2/auth",
-    token_uri: "https://oauth2.googleapis.com/token",
-    auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-k1gbj%40sport-yard-40ac7.iam.gserviceaccount.com"
+  type: "service_account",
+  project_id: "sport-yard-858ca",
+  private_key_id: "968e559649b77ab1a3d0de13f303ea3617370912",
+  private_key: "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXiOkGdgyVbT3k\npXZoQQFGUVOx748a7A6s+DQerXHqgM3lDRDZXexkFvRXJFVCIRGjhQPWSqPqL0ad\nQ4bDYpU177VcQSfWrqzHfbNLw2eYukoQxcc7oEM15u6WvPJeiNhqIdYC/ek4v5MP\nseOWR2wn+fuW/iohghBQ0QIBDf+jA5kzS7+jZeRl2/oLSeIRd6zTytI8NPtQmE0x\n/0GKwxSvmCRveHQFzLXgTmTyCeK9IWMJOAXF9pfzhSwET2yIN+/6F6/F/UgD7XQq\ni8cGEvibtEGY9Hyrf4W1y2WFk8KnDX7C2ZfyF+VCJxmJLelweHY9KWGjuycTI5RI\n92gZ60hBAgMBAAECggEAYmu38QXd+CwSu8Kc371zXg9MFzAr2mDZ0L1kW2/bWXio\nzIPbYk7j386lk9dZAWIFYnSejG+4Cvu8lJqdwsHVHfSQjgiIrx1Dc7MgOSQJPfIv\nWRpfQIiNuGL0JywvxuBZZpl91w7oPUwp1Nxn7xs9NcIO02PLjFKOrcDLV/zy85Yd\n4UPgI2iMk0oGUO8GaCHPZrAnhL5LPoJJvI91TC/gl34amwImgsIzsTcreeZB9sb8\nDFVeWfv/DQrWxukm90wj9ZXzgJtVydFSLbvyCM16TOCE4SaVZe/sj9yw52IWhBUY\n6kGkiJFd2JdUwMGTOEkRygmGSyo+UvnVZNhkGnQLWwKBgQD0RVcWF3ORlA/Z331w\nANnOobZ/e/pDKodry8SVgvutYw6zCNmJNThjzqP4gCt9/ubmMXnlIbfz6CNiur7Q\nlrlpGoIvJsg6RSfK/l/llmXKxH3KvSFNng/QHCgkCmtx/fxSbvuKCixd99XHxnKP\nhP1tle/OX222WLr9GrizpGn1TwKBgQDh4lY4dN2REPLVO0iCg3KXbQ1c0N57mDSg\ncqlDWawDumb6FatYsgahyps89H66T7UcU4Pz1Mh1bFmfbL/RKydOGuvuEbzd5lWz\nybb4mWDoerz2EoeqhUrEhmJVwiZNKQaF6M5Ah0deOuWjqKFAl38SHzWAJo8U8FD8\ncMccscKlbwKBgQCbls8xsx5ZzAWMsV4kyWXyx+6GpWFzBtPbRZ+h3ByTBFWIlEp7\nqvqQGD85Oep6BrLsTPdni2KwaVygtnJ0So0u9UOW5Q0EkKgYFI7gnjuYPDAjwvRD\njDpmRIkM69YkdbMSjr6J3pEECaiR50VxRTRnaOmmegJX84ynSy36vu7+4QKBgQC5\nvofN5vOnbXtxsk0e3X5mXItnbm30ziVAZuke8+cKLcauERGUXtgrRNLAngBzrkWs\npFRWNfwc6tsLyL42/zhT9rlZTAa1pcmFjPLDnERfB0bJRlV++BqSXjsQcBVUz86I\nYPbxgwxBxUa+fFUVKz6XpUg2N/7iZfcCjq58vwPjSwKBgQDyCU4fjJaciTvtjhfH\nu5wvByySIBxfAS3sMGGdUsyp40ijc4U9dTW+fQel2W/RYdvVLR14UDTY34P71xlf\nX3f6GpXiPGOdRUYeCHBbrtrBrvT6zVyxNyzXUyo/b4kn2jG4ine+yktWarxY35O8\nO1JH7PgnIU4dMHMEr+ieDwJv6Q==\n-----END PRIVATE KEY-----\n",
+  client_email: "firebase-adminsdk-32rg3@sport-yard-858ca.iam.gserviceaccount.com",
+  client_id: "112021046304507554767",
+  auth_uri: "https://accounts.google.com/o/oauth2/auth",
+  token_uri: "https://oauth2.googleapis.com/token",
+  auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
+  client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-32rg3%40sport-yard-858ca.iam.gserviceaccount.com"
 }

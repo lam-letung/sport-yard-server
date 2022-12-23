@@ -2,15 +2,50 @@ import express from 'express';
 import { createServer } from "http";
 import cors from "cors";
 import dotenv from 'dotenv';
+import bodyParser from 'body-parser'
 import { Server } from "socket.io";
 import db from './utils/db/index.js'
+import UsersRouter from './routes/users.js'
+import ProductsRouter from './routes/products.js'
+import PitchRouter from './routes/pitch.js'
+import TransactionsRouter from './routes/transactions.js'
+import OrdersRouter from './routes/orders.js'
+import MessagesRouter from './routes/messages.js'
+import LoginRouter from './routes/login.js'
 
 const app = express();
 
-app.use(cors())
 dotenv.config()
+app.use(cors());
+app.use(bodyParser.json())
+app.use(express.json({ limit: '30mb' }));
+app.use(express.urlencoded({ extended: true, limit: '60mb' }));
+
+
+app.use("/users", UsersRouter )
+
+app.use("/products", ProductsRouter )
+
+app.use("/pitch", PitchRouter )
+
+app.use("/transactions", TransactionsRouter )
+
+app.use("/orders", OrdersRouter )
+
+app.use("/messages", MessagesRouter )
+
+app.use("/login", LoginRouter )
+
+app.use("/", (req, res) => {
+  res.send("Home page API")
+})
+
 
 const server = createServer(app)
+
+
+
+
 
 const io = new Server(server , {
   cors : {
