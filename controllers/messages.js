@@ -4,7 +4,7 @@ export const getMessages = async (req, res) => {
     try {
           const entries = await db
             .collection("messages")
-            .orderBy("timestamp", "desc")
+            .orderBy("timestamp", "asc")
             .get();
           const messages = entries.docs.map((entry) => ({
             id: entry.id,

@@ -4,7 +4,7 @@ export const getUsers = async (req, res) => {
     try {
           const entries = await db
             .collection("users")
-            .orderBy("timestamp", "desc")
+            .orderBy("timestamp", "asc")
             .get();
           const users = entries.docs.map((entry) => ({
             id: entry.id,
