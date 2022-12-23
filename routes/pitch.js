@@ -1,24 +1,24 @@
 import express from "express";
-import { createPitch, deletePitchByID, getPitchByID, getPitches, updatePitchByID } from "../controllers/pitch.js";
+import { createPitch, createReviewByPitch, deletePitchByID, getPitchByID, getPitches, getReviewsByPitch, updatePitchByID } from "../controllers/pitch.js";
 
 
 
 const router = express.Router()
 
+router.get("/:id/reviews", getReviewsByPitch)
 
-router.get("/",getPitches)
+router.post("/:id/reviews", createReviewByPitch)
 
-router.get("/:id",getPitchByID)
-
-router.get("/:id/reviews")
-
-router.post("/", createPitch)
-
-router.post("/:id/reviews",)
+router.delete("/:id",deletePitchByID)
 
 router.put("/:id",updatePitchByID)
 
-router.delete("/:id",deletePitchByID)
+router.get("/:id",getPitchByID)
+
+router.get("/",getPitches)
+
+router.post("/", createPitch)
+
 
 
 export default router
